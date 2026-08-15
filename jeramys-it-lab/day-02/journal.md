@@ -4,6 +4,7 @@
 **Topic: Interfaces and cables**
 
 **2026-07-30**
+
 On this day I learned the basics of Interfaces and Cables.
 
 In my words:
@@ -17,6 +18,7 @@ The definition of ethernet confused me a bit, I always thought ethernet was just
 
 
 **2026-07-31**
+
 On this day I learned Ethernet standards(IEEE), copper cables and pairs of wires used to transmit and receive data.
 
 In my own words:
