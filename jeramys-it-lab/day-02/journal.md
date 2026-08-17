@@ -51,3 +51,4 @@ In my own words:
 
 I never knew there was so much to know about cables, it is fun to understand them after all of these years using them in my daily life.
 
+change name to jeremys-it-lab: day 2
