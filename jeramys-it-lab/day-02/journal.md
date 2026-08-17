@@ -31,3 +31,23 @@ In my own words:
 I did not realise that there was so much to learn about the smallest component in networking(Cables).
 I am personally waiting for when I learn about Fiber-optic cables, I am sure there is a lot I do not know about them.
 
+
+
+**2026-08-14**
+...
+...
+**2026-08-17**
+
+I learned the difference between single and multi mode fiber optic cables and the difference between Copper UTP cables and Fiber optic cables.
+
+In my own words:
+- A multi-mode fiber optic cable has a wider core compared to single mode.
+- Light enters from multiple angles while in single-mode light only enters from a single angle.
+- A multi-mode is cheaper because it uses cheaper LED-based sfp transmitters. While single-mode uses more expensive Laser based transmitter
+- The maximum length of a multi-mode cable is shorter compared to single-mode.
+- Multi-mode goes up to 500 meters while single-mode goes up to 10km.
+- UTP cables are lower cost but are vulnerable to EMI and leak faint signals which is a security risk, while Fiber optic being more expensive has none of those issues.
+- The maximum length of copper UTP cables is significantly smaller compared to Fiber optic cables.
+
+I never knew there was so much to know about cables, it is fun to understand them after all of these years using them in my daily life.
+
