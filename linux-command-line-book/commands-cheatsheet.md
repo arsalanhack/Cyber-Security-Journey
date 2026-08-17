@@ -28,5 +28,5 @@ cal            # show calendar
 
 ## Misc
 ```bash
-...
+mv ~/... ~/ ... # move directories to other locations
 ```

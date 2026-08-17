@@ -26,3 +26,13 @@ Commands I learned:
 - 'less filename'    # Shows contents of file in a book like format.
 
 
+**2026-08-17**
+
+The book tells me to take a stroll around my computer's directories and take a look at human-readable files.
+Using the cd command followed by a '/' to switch to the root directory and going to directories like /bin and /etc.
+Using the less, type, and file commands and programs I explored my MacOS's files.
+
+I never knew I could do this until now. This book is really good at teaching me about my computer and what I can do with my terminal.
+
+
+
