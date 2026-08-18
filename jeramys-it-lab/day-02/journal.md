@@ -34,8 +34,10 @@ I am personally waiting for when I learn about Fiber-optic cables, I am sure the
 
 
 **2026-08-14**
+
 ...
 ...
+
 **2026-08-17**
 
 I learned the difference between single and multi mode fiber optic cables and the difference between Copper UTP cables and Fiber optic cables.
@@ -50,5 +52,3 @@ In my own words:
 - The maximum length of copper UTP cables is significantly smaller compared to Fiber optic cables.
 
 I never knew there was so much to know about cables, it is fun to understand them after all of these years using them in my daily life.
-
-change name to jeremys-it-lab: day 2
