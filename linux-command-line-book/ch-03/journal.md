@@ -35,4 +35,10 @@ Using the less, type, and file commands and programs I explored my MacOS's files
 I never knew I could do this until now. This book is really good at teaching me about my computer and what I can do with my terminal.
 
 
+**2026-08-19**
 
+I learned about symbolic links.
+
+In my own words:
+- a symbolic link is a special file that points to another file or directory, similar to shortcuts in Windows
+- instead of having many files directly pointing to a resource whose location may change, you give them all a symbolic link. When the resource is updated or replaced, you only need to update the symbolic link, while all the files continue using the same path.
