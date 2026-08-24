@@ -17,3 +17,19 @@ In my own words:
 - Standards are developed by independent organisations rather than a single engineer. Two big networking organisations are the IEEE (Institute of Electrical and Electronics Engineers) and IETF (Internet Engineering Task Force).
     - IEEE mainly develops technologies used in local area networks, for example: Ethernet and Wi-Fi.
     - IETF defines protocols used on the Internet, for example: TCP, IP, UDP, HTTP, DNS, etc.
+
+
+**2026-08-23**
+
+The layered model
+
+In my own words:
+- Networks do a lot of jobs: Physical transmission of signals, local delivery on LAN and routing traffic between networks etc.
+- A model lets us group related jobs into layers.
+    - Each layer has a specific role.
+    - Each layer uses the services of the layer below it and provides services to the layer above.
+- Each individual protocol primarily belongs to one particular layer.
+    - TCP, UDP -> Application layer.
+    - Internet protocol -> Internet layer (IPv4, IPv6).
+
+We are finally getting into the models, I never understood these models properly before. This time I will understand them fully.
