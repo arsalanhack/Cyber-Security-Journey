@@ -33,3 +33,21 @@ In my own words:
     - Internet protocol -> Internet layer (IPv4, IPv6).
 
 We are finally getting into the models, I never understood these models properly before. This time I will understand them fully.
+
+
+**2026-08-24**
+
+Further into TCP/IP model.
+
+In my own words:
+- Each layer has its own job
+    - Layers work together to deliver the message, but each one focuses on its own task.
+- What happens inside one layer doesn't change the job of the other layers.
+- Web browsers(like Chrome) are also called Web client application.
+1. Application layer: Protocols for communication between application process; create and interpret the data.
+2. Transport layer: Provides end to end communication between application process using port numbers.
+3. Internet layer: Provides end to end communication between hosts across networks using IP addresses and routers.
+4. Local network layer: Provides hop to hop delivering within a local network using MAC address and switches.
+5. Physical layer: Sends bits as electrical, optical, or radio signals over physical medium.
+
+Finally understood how the TCP/IP model works. How the layers work together and how important each one is. Excited to learn the OSI model next.
