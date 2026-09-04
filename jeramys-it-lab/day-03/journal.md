@@ -64,3 +64,17 @@ In my own words:
 - Examples: copper UTP cables, fiber-optic cables, Wi-Fi (radio and antennas), and network interface cards (NICs).
 
 Breaking down these layers in depth will help me understand them better.
+
+
+**2026-09-01**
+
+Layer 2: The local network
+
+In my own words:
+- Layer 2 provides hop-to-hop delivery of messages on a local network.
+    - A hop is one step along the path between two devices (a router and an end host).
+    - Switches don't count because they only extend the LAN.
+    - MAC addresses are used for hops so the message can travel along the correct path.
+- A MAC (Media Access Control) address is the unique hardware address of a network interface (NIC) on a local network.
+
+When I was learning this, MAC addresses really confused me. I thought they were something else, but after a quick chat with ChatGPT, it all became clear to me.
