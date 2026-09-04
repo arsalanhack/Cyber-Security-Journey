@@ -51,3 +51,16 @@ In my own words:
 5. Physical layer: Sends bits as electrical, optical, or radio signals over physical medium.
 
 Finally understood how the TCP/IP model works. How the layers work together and how important each one is. Excited to learn the OSI model next.
+
+
+**2026-08-24**
+
+TCP/IP layers one by one.
+Layer 1: Physical layer
+
+In my own words:
+- The Physical layer sends and receives bits as electrical, optical, or radio signals over a medium.
+- It defines things like cables, connectors, signal levels, and link speeds.
+- Examples: copper UTP cables, fiber-optic cables, Wi-Fi (radio and antennas), and network interface cards (NICs).
+
+Breaking down these layers in depth will help me understand them better.
