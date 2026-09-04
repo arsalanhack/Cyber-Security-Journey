@@ -78,3 +78,17 @@ In my own words:
 - A MAC (Media Access Control) address is the unique hardware address of a network interface (NIC) on a local network.
 
 When I was learning this, MAC addresses really confused me. I thought they were something else, but after a quick chat with ChatGPT, it all became clear to me.
+
+
+**2026-09-02**
+
+Layer 3: The internet layer (Internetwork layer)
+
+In my own words:
+- This layer provides end to end delivery between hosts across multiple networks. It identifies devices/Servers/Computers across the internet.
+- This layer uses IP addresses to identify hosts.
+- Routers operate mainly at this layer, using the messeges's destination Ip address to forward the message towards its final distenation host.
+- Protocol at this level include: IP(IPv4, IPv6) and ICMP(Internet control messege protocol).
+
+Routers are very interesting because they are one of the hardware you install in your home, so I am exicited to study and understand it further.
+No idea what the difference between the two version of IP addresses is yet, excited to learn about it in further videos.
