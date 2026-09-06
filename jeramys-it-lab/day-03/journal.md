@@ -7,43 +7,45 @@
 Learned a few basic things about standards and their history.
 
 In my own words:
+
 - A protocol is a set of rules that defines how data should be communicated between devices over the Internet.
 - Vint Cerf and Bob Kahn began developing TCP (Transmission Control Program) in 1974.
-    - Later branched to TCP (Transmission Control Protocol) and IP (Internet Protocol).
+  - Later branched to TCP (Transmission Control Protocol) and IP (Internet Protocol).
 - A standard is an agreed-upon specification that describes how a protocol or technology should work.
-    - With vendor-neutral standards, devices of all types can communicate with each other.
-    - For example: A MacBook can access a website hosted on a server that runs Linux.
+  - With vendor-neutral standards, devices of all types can communicate with each other.
+  - For example: A MacBook can access a website hosted on a server that runs Linux.
 
 - Standards are developed by independent organisations rather than a single engineer. Two big networking organisations are the IEEE (Institute of Electrical and Electronics Engineers) and IETF (Internet Engineering Task Force).
-    - IEEE mainly develops technologies used in local area networks, for example: Ethernet and Wi-Fi.
-    - IETF defines protocols used on the Internet, for example: TCP, IP, UDP, HTTP, DNS, etc.
-
+  - IEEE mainly develops technologies used in local area networks, for example: Ethernet and Wi-Fi.
+  - IETF defines protocols used on the Internet, for example: TCP, IP, UDP, HTTP, DNS, etc.
 
 **2026-08-23**
 
 The layered model
 
 In my own words:
+
 - Networks do a lot of jobs: physical transmission of signals, local delivery on a LAN, and routing traffic between networks, etc.
 - A model lets us group related jobs into layers.
-    - Each layer has a specific role.
-    - Each layer uses the services of the layer below it and provides services to the layer above.
+  - Each layer has a specific role.
+  - Each layer uses the services of the layer below it and provides services to the layer above.
 - Each individual protocol primarily belongs to one particular layer.
-    - TCP, UDP -> Application layer.
-    - Internet protocol -> Internet layer (IPv4, IPv6).
+  - TCP, UDP -> Application layer.
+  - Internet protocol -> Internet layer (IPv4, IPv6).
 
 We are finally getting into the models. I never understood these models properly before. This time I will understand them fully.
-
 
 **2026-08-24**
 
 Further into TCP/IP model.
 
 In my own words:
+
 - Each layer has its own job.
-    - Layers work together to deliver the message, but each one focuses on its own task.
+  - Layers work together to deliver the message, but each one focuses on its own task.
 - What happens inside one layer doesn't change the job of the other layers.
 - Web browsers (like Chrome) are also called web client applications.
+
 1. Application layer: Protocols for communication between application processes; create and interpret the data.
 2. Transport layer: Provides end-to-end communication between application processes using port numbers.
 3. Internet layer: Provides end-to-end communication between hosts across networks using IP addresses and routers.
@@ -52,39 +54,39 @@ In my own words:
 
 Finally understood how the TCP/IP model works. How the layers work together and how important each one is. Excited to learn the OSI model next.
 
-
 **2026-08-24**
 
 TCP/IP layers one by one.
 Layer 1: Physical layer
 
 In my own words:
+
 - The physical layer sends and receives bits as electrical, optical, or radio signals over a medium.
 - It defines things like cables, connectors, signal levels, and link speeds.
 - Examples: copper UTP cables, fiber-optic cables, Wi-Fi (radio and antennas), and network interface cards (NICs).
 
 Breaking down these layers in depth will help me understand them better.
 
-
 **2026-09-01**
 
 Layer 2: The local network
 
 In my own words:
+
 - Layer 2 provides hop-to-hop delivery of messages on a local network.
-    - A hop is one step along the path between two devices (a router and an end host).
-    - Switches don't count because they only extend the LAN.
-    - MAC addresses are used for hops so the message can travel along the correct path.
+  - A hop is one step along the path between two devices (a router and an end host).
+  - Switches don't count because they only extend the LAN.
+  - MAC addresses are used for hops so the message can travel along the correct path.
 - A MAC (Media Access Control) address is the unique hardware address of a network interface (NIC) on a local network.
 
 When I was learning this, MAC addresses really confused me. I thought they were something else, but after a quick chat with ChatGPT, it all became clear to me.
-
 
 **2026-09-02**
 
 Layer 3: The internet layer (Internetwork layer)
 
 In my own words:
+
 - This layer provides end-to-end delivery between hosts across multiple networks. It identifies devices, servers, and computers across the internet.
 - This layer uses IP addresses to identify hosts.
 - Routers operate mainly at this layer, using the message's destination IP address to forward the message towards its final destination host.
@@ -98,17 +100,25 @@ No idea what the difference between the two versions of IP addresses is yet, but
 Layer 4: The Transport layer
 
 In my own words:
+
 - The transport layer is an end-to-end communication between application processes.
 - Port numbers are used to identify processes on each host.
-    - For example: a web server on a server has a port number of 80.
+  - For example: a web server on a server has a port number of 80.
 - Protocols at this layer include:
-    - TCP (Transmission Control Protocol): more robust features beyond basic message addressing.
-    - UDP (User Datagram Protocol): simple and efficient.
-
+  - TCP (Transmission Control Protocol): more robust features beyond basic message addressing.
+  - UDP (User Datagram Protocol): simple and efficient.
 
 Just one more layer left.
-
 
 **2026-09-02**
 
 Layer 5: The Application layer
+
+In my own words:
+
+- The application layer is where network communication meets applications.
+- It defines how application processes format, send, and interpret data.
+- Protocols at this layer include:
+  - Browsing webpages (HTTP/HTTPS), transferring files (FTP, TFTP), sending/receiving emails (SMTP, POP3, IMAP).
+
+This is where we stop looking at these layers in depth and start understanding how they are used when accessing something on the internet.
