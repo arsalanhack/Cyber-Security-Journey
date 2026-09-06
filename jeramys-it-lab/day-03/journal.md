@@ -7,7 +7,7 @@
 Learned a few basic things about standards and their history.
 
 In my own words:
-- A protocol is a set of rules that defines how data should be communicated between devices over the Internet
+- A protocol is a set of rules that defines how data should be communicated between devices over the Internet.
 - Vint Cerf and Bob Kahn began developing TCP (Transmission Control Program) in 1974.
     - Later branched to TCP (Transmission Control Protocol) and IP (Internet Protocol).
 - A standard is an agreed-upon specification that describes how a protocol or technology should work.
@@ -24,7 +24,7 @@ In my own words:
 The layered model
 
 In my own words:
-- Networks do a lot of jobs: Physical transmission of signals, local delivery on LAN and routing traffic between networks etc.
+- Networks do a lot of jobs: physical transmission of signals, local delivery on a LAN, and routing traffic between networks, etc.
 - A model lets us group related jobs into layers.
     - Each layer has a specific role.
     - Each layer uses the services of the layer below it and provides services to the layer above.
@@ -32,7 +32,7 @@ In my own words:
     - TCP, UDP -> Application layer.
     - Internet protocol -> Internet layer (IPv4, IPv6).
 
-We are finally getting into the models, I never understood these models properly before. This time I will understand them fully.
+We are finally getting into the models. I never understood these models properly before. This time I will understand them fully.
 
 
 **2026-08-24**
@@ -40,15 +40,15 @@ We are finally getting into the models, I never understood these models properly
 Further into TCP/IP model.
 
 In my own words:
-- Each layer has its own job
+- Each layer has its own job.
     - Layers work together to deliver the message, but each one focuses on its own task.
 - What happens inside one layer doesn't change the job of the other layers.
-- Web browsers(like Chrome) are also called Web client application.
-1. Application layer: Protocols for communication between application process; create and interpret the data.
-2. Transport layer: Provides end to end communication between application process using port numbers.
-3. Internet layer: Provides end to end communication between hosts across networks using IP addresses and routers.
-4. Local network layer: Provides hop to hop delivering within a local network using MAC address and switches.
-5. Physical layer: Sends bits as electrical, optical, or radio signals over physical medium.
+- Web browsers (like Chrome) are also called web client applications.
+1. Application layer: Protocols for communication between application processes; create and interpret the data.
+2. Transport layer: Provides end-to-end communication between application processes using port numbers.
+3. Internet layer: Provides end-to-end communication between hosts across networks using IP addresses and routers.
+4. Local network layer: Provides hop-to-hop delivery within a local network using MAC address and switches.
+5. Physical layer: Sends bits as electrical, optical, or radio signals over a physical medium.
 
 Finally understood how the TCP/IP model works. How the layers work together and how important each one is. Excited to learn the OSI model next.
 
@@ -59,7 +59,7 @@ TCP/IP layers one by one.
 Layer 1: Physical layer
 
 In my own words:
-- The Physical layer sends and receives bits as electrical, optical, or radio signals over a medium.
+- The physical layer sends and receives bits as electrical, optical, or radio signals over a medium.
 - It defines things like cables, connectors, signal levels, and link speeds.
 - Examples: copper UTP cables, fiber-optic cables, Wi-Fi (radio and antennas), and network interface cards (NICs).
 
@@ -85,10 +85,30 @@ When I was learning this, MAC addresses really confused me. I thought they were 
 Layer 3: The internet layer (Internetwork layer)
 
 In my own words:
-- This layer provides end to end delivery between hosts across multiple networks. It identifies devices/Servers/Computers across the internet.
+- This layer provides end-to-end delivery between hosts across multiple networks. It identifies devices, servers, and computers across the internet.
 - This layer uses IP addresses to identify hosts.
-- Routers operate mainly at this layer, using the messeges's destination Ip address to forward the message towards its final distenation host.
-- Protocol at this level include: IP(IPv4, IPv6) and ICMP(Internet control messege protocol).
+- Routers operate mainly at this layer, using the message's destination IP address to forward the message towards its final destination host.
+- Protocols at this level include: IP (IPv4, IPv6) and ICMP (Internet Control Message Protocol).
 
-Routers are very interesting because they are one of the hardware you install in your home, so I am exicited to study and understand it further.
-No idea what the difference between the two version of IP addresses is yet, excited to learn about it in further videos.
+Routers are very interesting because they are one of the hardware devices you install in your home, so I am excited to study and understand them further.
+No idea what the difference between the two versions of IP addresses is yet, but I am excited to learn about it in further videos.
+
+**2026-09-02**
+
+Layer 4: The Transport layer
+
+In my own words:
+- The transport layer is an end-to-end communication between application processes.
+- Port numbers are used to identify processes on each host.
+    - For example: a web server on a server has a port number of 80.
+- Protocols at this layer include:
+    - TCP (Transmission Control Protocol): more robust features beyond basic message addressing.
+    - UDP (User Datagram Protocol): simple and efficient.
+
+
+Just one more layer left.
+
+
+**2026-09-02**
+
+Layer 5: The Application layer
