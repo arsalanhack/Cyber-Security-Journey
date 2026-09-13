@@ -151,3 +151,20 @@ In my own words:
 
 Now I know how both of the end-hosts prepare and receive data.
 
+
+**2026-09-07**
+
+Protocol data units
+
+In my own words:
+1. Segment(TCP) or Datagram(UDP) -> Data with layer 4 header.
+2. Packet -> Data with layer 4 and layer 3 header.
+3. Frame -> Data with layer 4, layer 3 and layer 2 header, and layer 2 trailer.
+
+- Alternative names:
+  - Segment(TCP) or Datagram(UDP) -> Layer 4 PDU
+  - Packet -> Layer 3 PDU
+  - Frame -> Layer 2 PDU
+- Contents of each PDU are called payload.
+
+I had heard the names packets and segments before, now I know what they actually are.
