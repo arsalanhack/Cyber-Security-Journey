@@ -138,3 +138,16 @@ In my own words:
 
 I got a fair idea now about what each layer does.
 
+
+**2026-09-06**
+
+Decapsulation
+
+In my own words:
+- While encapsulation builds, decapsulation breaks down.
+- Layer by layer it removes the headers from the frame until it reaches the data.
+  - Physical bits are received first and it goes layer by layer upwards removing the headers that were added in encapsulation.
+
+
+Now I know how both of the end-hosts prepare and receive data.
+
