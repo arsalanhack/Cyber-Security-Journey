@@ -122,3 +122,19 @@ In my own words:
   - Browsing webpages (HTTP/HTTPS), transferring files (FTP, TFTP), sending/receiving emails (SMTP, POP3, IMAP).
 
 This is where we stop looking at these layers in depth and start understanding how they are used when accessing something on the internet.
+
+**2026-09-03**
+
+Encapsulation & Decapsulation
+
+In my own words:
+
+- When a message is sent over the internet it is encapsulated. It means each layer adds a header to the data that is being sent.
+  - Application layer prepares the data to be sent over the Internet.
+  - Transport layer adds a Layer 4 header to the data.
+  - Internet layer does the same, adding header after Layer 4 header.
+  - Local Network adds a header after Layer 3 header and a trailer at the very end.
+  - Finally the message is sent in the form of signals across the internet. Layer 2 header is transmitted first and the trailer is transmitted last.
+
+I got a fair idea now about what each layer does.
+
