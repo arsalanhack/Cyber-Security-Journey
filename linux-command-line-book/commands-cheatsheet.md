@@ -38,9 +38,9 @@ cal            # show calendar
     3. [:digit:] # Matches any numerical.
     4. [:lower:] # Matches any lowercase letter.
     5. [:upper:] # Matches any uppercase letter.
+```
 
 ## Misc
 ```bash
 mv ~/... ~/ ... # move directories to other locations
 ln /... ~/...   # creates symbolic link
-```
