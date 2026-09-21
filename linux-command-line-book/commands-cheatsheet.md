@@ -26,6 +26,19 @@ date           # show current date
 cal            # show calendar
 ```
 
+## Wildcards
+```bash
+'*' # select all files
+'?' # match exactly one character.
+'[characters]' # Match any character that is a member of the set of characters.
+'[!characters]' # Match any character that is not a member of the set of characters.
+'[[:class:]]' # Match any character that is a member of a specified class.
+    1. [:alnum:] # Matches any alphanumerical character.
+    2. [:alpha:] # Matches any alphabetical character.
+    3. [:digit:] # Matches any numerical.
+    4. [:lower:] # Matches any lowercase letter.
+    5. [:upper:] # Matches any uppercase letter.
+
 ## Misc
 ```bash
 mv ~/... ~/ ... # move directories to other locations
