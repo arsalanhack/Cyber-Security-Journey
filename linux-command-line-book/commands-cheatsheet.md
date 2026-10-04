@@ -6,6 +6,14 @@ cd ..          # go up one directory
 pwd            # print current directory
 ```
 
+## Directory minapulation
+```bash
+mkdir          # Make directory 
+cp            # copy a file
+mv            # move a file
+rm            # delete a file
+```
+
 ## File Info & Viewing
 ```bash
 file filename  # tells you what type of file it is
