@@ -36,12 +36,21 @@ Character classes:
 
 Wildcard examples:
 
-1. '*' -> all files
-2. 'g*' -> Any file beginning with g
-3. 'b*' -> .txt Any file beginning with b followed by any characters and ending with .txt
+1. '\*' -> all files
+2. 'g\*' -> Any file beginning with g
+3. 'b\*' -> .txt Any file beginning with b followed by any characters and ending with .txt
 4. 'Data???' -> Any file beginning with Data followed by exactly three characters
-5. '[abc]*' -> Any file beginning with either an a, a b, or a c
+5. '[abc]\*' -> Any file beginning with either an a, a b, or a c
 6. 'BACKUP.[0-9][0-9][0-9]' -> Any file beginning with BACKUP. followed by exactly three numerals
-7. '[[:upper:]]*' -> Any file beginning with an uppercase letter
-8. '[![:digit:]]*' -> Any file not beginning with a numeral
-9. '*[[:lower:]123]' -> Any file ending with a lowercase letter or the numerals 1, 2, or 3
+7. '[[:upper:]]\*' -> Any file beginning with an uppercase letter
+8. '[![:digit:]]\*' -> Any file not beginning with a numeral
+9. '\*[[:lower:]123]' -> Any file ending with a lowercase letter or the numerals 1, 2, or 3
+
+**2026-10-4**
+
+In my own words:
+
+- Hard links: Two files that point to the same location on a hard drive.
+  - Changes to one file will also appear in the other file.
+- Soft links: Also called symbolic links, these are files that point to another file rather than both pointing to the same location on the hard drive.
+  - If the original file is deleted, the soft link points to nothing and breaks.
